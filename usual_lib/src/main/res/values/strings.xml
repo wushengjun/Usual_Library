@@ -1,0 +1,8 @@
+<resources>
+    <string name="usuallib_app_name">UsualLibrary</string>
+    <string name="usuallib_msg_on_loading">正在加载...</string>
+    <string name="usuallib_msg_error_eccurred">非常抱歉，发生错误了</string>
+    <string name="usuallib_msg_fail_get">非常抱歉，获取失败</string>
+    <string name="usuallib_msg_error_network">网络出错了，请检查网络设置</string>
+    <string name="usuallib_no_load_sound">亲, 您还没加载声音哦~</string>
+</resources>

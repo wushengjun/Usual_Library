@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="BGAProgressBar">
+        <!-- 进度条样式，默认值为 system -->
+        <attr name="bga_pb_mode" format="enum">
+            <!-- 系统自带样式 -->
+            <enum name="system" value="0" />
+            <!-- 水平进度条 -->
+            <enum name="horizontal" value="1" />
+            <!-- 圆形进度条 -->
+            <enum name="circle" value="2" />
+            <!-- 彗星进度条 -->
+            <enum name="comet" value="3" />
+            <!-- 水波纹进度条 -->
+            <enum name="wave" value="4" />
+        </attr>
+        <!-- 是否为圆角，默认值为none -->
+        <attr name="bga_pb_roundMode" format="enum" >
+            <!-- 无 -->
+            <enum name="none" value="0" />
+            <!-- 左边圆角 -->
+            <enum name="left" value="1" />
+            <!-- 右边圆角 -->
+            <enum name="right" value="2" />
+            <!-- 左右圆角 -->
+            <enum name="left_right" value="3" />
+        </attr>
+        <!-- 文字颜色，默认值为 #70A800 -->
+        <attr name="bga_pb_textColor" format="reference|color" />
+        <!-- 文字大小，默认值为 10sp -->
+        <attr name="bga_pb_textSize" format="dimension" />
+        <!-- 文字和进度条之间的间距，默认值为 4dp -->
+        <attr name="bga_pb_textMargin" format="dimension" />
+        <!-- 已完成进度的颜色，默认值为 #70A800 -->
+        <attr name="bga_pb_reachedColor" format="reference|color" />
+        <!-- 已完成进度的高度，默认值为 2dp -->
+        <attr name="bga_pb_reachedHeight" format="dimension" />
+        <!-- 未完成进度的颜色，默认值为 #CCCCCC -->
+        <attr name="bga_pb_unReachedColor" format="reference|color" />
+        <!-- 未完成进度的高度，默认值为 1dp -->
+        <attr name="bga_pb_unReachedHeight" format="dimension" />
+        <!-- 是否隐藏文字，默认值为 false -->
+        <attr name="bga_pb_isHiddenText" format="boolean" />
+        <!-- 画笔是否为圆角，默认为false -->
+        <attr name="bga_pb_isCapRounded" format="boolean" />
+        <!-- 圆形进度条半径，默认值为 16dp -->
+        <attr name="bga_pb_radius" format="dimension" />
+    </declare-styleable>
+
+    <declare-styleable name="MenuItemLayout">
+        <!-- 菜单条目 -->
+        <attr name="menu_item_Length" format="dimension" />
+        <attr name="itemPadding" format="dimension" />
+        <attr name="itemPaddingLeft" format="dimension" />
+        <attr name="itemPaddingRight" format="dimension" />
+        <attr name="itemPaddingTop" format="dimension" />
+        <attr name="itemPaddingBottom" format="dimension" />
+
+        <attr name="startIcon" format="reference"/>
+        <attr name="startIconPadding" format="dimension"/>
+        <attr name="startIconPaddingLeft" format="dimension"/>
+        <attr name="startIconPaddingRight" format="dimension"/>
+        <attr name="startIconPaddingTop" format="dimension"/>
+        <attr name="startIconPaddingBottom" format="dimension"/>
+        <attr name="endIcon" format="reference"/>
+        <attr name="endIconPadding" format="dimension"/>
+        <attr name="endIconPaddingLeft" format="dimension"/>
+        <attr name="endIconPaddingRight" format="dimension"/>
+        <attr name="endIconPaddingTop" format="dimension"/>
+        <attr name="endIconPaddingBottom" format="dimension"/>
+
+        <attr name="mainText" format="string"/>
+        <attr name="mainTextSize" format="dimension"/>
+        <attr name="mainTextColor" format="reference|color"/>
+
+        <attr name="describtion" format="string"/>
+        <attr name="describtionTextSize" format="dimension"/>
+        <attr name="describtionTextColor" format="reference|color"/>
+
+        <attr name="lineColor" format="reference|color"/>
+        <attr name="lineHeight" format="dimension"/>
+        <attr name="lineMarginStart" format="dimension"/>
+        <attr name="lineMarginEnd" format="dimension"/>
+    </declare-styleable>
+
+    <declare-styleable name="SlidingMenu">
+        <attr name="mode">
+            <enum name="left" value="0" />
+            <enum name="right" value="1" />
+        </attr>
+        <attr name="viewAbove" format="reference" />
+        <attr name="viewBehind" format="reference" />
+        <attr name="behindOffset" format="dimension" />
+        <attr name="behindWidth" format="dimension" />
+        <attr name="behindScrollScale" format="float" />
+        <attr name="touchModeAbove">
+            <enum name="margin" value="0" />
+            <enum name="fullscreen" value="1" />
+            <enum name="none" value="2" />
+        </attr>
+        <attr name="touchModeBehind">
+            <enum name="margin" value="0" />
+            <enum name="fullscreen" value="1" />
+            <enum name="none" value="2" />
+        </attr>
+        <attr name="shadowDrawable" format="reference" />
+        <attr name="shadowWidth" format="dimension" />
+        <attr name="fadeEnabled" format="boolean" />
+        <attr name="fadeDegree" format="float" />
+        <attr name="selectorEnabled" format="boolean" />
+        <attr name="selectorDrawable" format="reference" />
+    </declare-styleable>
+
+    <declare-styleable name="AllpurposeLayout" >
+        <!-- 水平容错距离 -->
+        <attr name="faultTolerantX" format="integer" />
+        <!-- 是否可以刷新 -->
+        <attr name="canRefresh" format="boolean" />
+        <attr name="noDataView" format="reference" />
+        <attr name="onLoadingView" format="reference" />
+        <attr name="noNetworkView" format="reference" />
+        <attr name="failView" format="reference" />
+        <attr name="errorView" format="reference" />
+    </declare-styleable>
+
+    <declare-styleable name="LeftSlideMenuItemLayout" >
+        <attr name="rightMenuView" format="reference" />
+        <attr name="slideScaleToShowMenu" format="float" />
+        <attr name="slideScaleToHideMenu" format="float" />
+        <attr name="currentVelocityUnit" format="integer" />
+        <attr name="xVelocityToShowOrHideMenu" format="integer" />
+    </declare-styleable>
+
+    <declare-styleable name="LeftSlideMenuListView" >
+        <attr name="dividerMarginLeft" format="dimension" />
+        <attr name="dividerMarginRight" format="dimension" />
+        <attr name="dividerMarginTop" format="dimension" />
+        <attr name="dividerMarginBottom" format="dimension" />
+    </declare-styleable>
+
+    <declare-styleable name="SwitchButton">
+        <attr name="sb_shadow_radius" format="reference|dimension"/>       <!--阴影半径 -->
+        <attr name="sb_shadow_offset" format="reference|dimension"/>       <!--阴影偏移 -->
+        <attr name="sb_shadow_color" format="reference|color"/>            <!--阴影颜色 -->
+        <attr name="sb_uncheck_color" format="reference|color"/>           <!--关闭颜色 -->
+        <attr name="sb_checked_color" format="reference|color"/>           <!--开启颜色 -->
+        <attr name="sb_border_width" format="reference|dimension"/>        <!--边框宽度 -->
+        <attr name="sb_checkline_color" format="reference|color"/>         <!--开启指示器颜色 -->
+        <attr name="sb_checkline_width" format="reference|dimension"/>     <!--开启指示器线宽 -->
+        <attr name="sb_uncheckcircle_color" format="reference|color"/>     <!--关闭指示器颜色 -->
+        <attr name="sb_uncheckcircle_width" format="reference|dimension"/> <!--关闭指示器线宽 -->
+        <attr name="sb_uncheckcircle_radius" format="reference|dimension"/><!--关闭指示器半径 -->
+        <attr name="sb_checked" format="reference|boolean"/>               <!--是否选中 -->
+        <attr name="sb_shadow_effect" format="reference|boolean"/>         <!--是否启用阴影 -->
+        <attr name="sb_effect_duration" format="reference|integer"/>       <!--动画时间，默认300ms -->
+        <attr name="sb_button_color" format="reference|color"/>            <!--按钮颜色 -->
+        <attr name="sb_show_indicator" format="reference|boolean"/>        <!--是否显示指示器，默认true：显示 -->
+        <attr name="sb_background" format="reference|color"/>              <!--背景色，默认白色 -->
+        <attr name="sb_enable_effect" format="reference|boolean"/>         <!--是否启用特效，默认true -->
+    </declare-styleable>
+</resources>

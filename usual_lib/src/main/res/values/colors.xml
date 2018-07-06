@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#45cbe6</color>
+
+    <color name="transparent">#00ffffff</color>
+    <color name="white">#ffffff</color>
+    <color name="black">#000000</color>
+    <color name="white_fe">#fefefe</color>
+    <color name="white_f0">#f0f0f0</color>
+    <color name="transparent11_black">#11000000</color>
+    <color name="transparent22_black">#22000000</color>
+    <color name="transparent33_black">#33000000</color>
+    <color name="transparent44_black">#44000000</color>
+    <color name="transparent55_black">#55000000</color>
+    <color name="transparent66_black">#66000000</color>
+    <color name="transparent77_black">#77000000</color>
+    <color name="transparent88_black">#88000000</color>
+    <color name="transparent99_black">#99000000</color>
+    <color name="transparentaa_black">#aa000000</color>
+    <color name="transparentbb_black">#bb000000</color>
+
+    <color name="gray_f0">#f0f0f0</color>
+    <color name="gray_ee">#eeeeee</color>
+    <color name="gray_e0">#e0e0e0</color>
+    <color name="gray_dd">#dddddd</color>
+    <color name="gray_d0">#d0d0d0</color>
+    <color name="gray_cc">#cccccc</color>
+    <color name="gray_c0">#c0c0c0</color>
+    <color name="gray_bb">#bbbbbb</color>
+    <color name="gray_b0">#b0b0b0</color>
+    <color name="gray_aa">#aaaaaa</color>
+    <color name="gray_a0">#a0a0a0</color>
+    <color name="gray_99">#999999</color>
+    <color name="gray_90">#909090</color>
+    <color name="gray_88">#888888</color>
+    <color name="gray_80">#808080</color>
+
+    <color name="text_color_default">#757575</color>
+    <color name="text_color_black">#424242</color>
+
+    <!-- 深黑 -->
+    <color name="black_dark">#404040</color>
+    <!-- 深灰 -->
+    <color name="gray_dark">#999999</color>
+    <!-- 浅灰 -->
+    <color name="gray_light">#e5e5e5</color>
+    <!-- 蓝绿灰 -->
+    <color name="gray_light_green_blue">#f5f7fa</color>
+    <!-- 蓝绿灰 -->
+    <color name="gray_dark_green_blue">#c5c7ca</color>
+    <!-- 浅蓝 -->
+    <color name="blue_qian">#e0edff</color>
+    <!-- 浅绿 -->
+    <color name="green_qian">#35e65e</color>
+
+    <color name="blue_down">#4595e5</color>
+    <color name="blue_normal">#297acc</color>
+
+    <color name="red">#ff0000</color> <!-- 大红色 -->
+    <color name="pink">#ff34B3</color> <!-- 粉红色 -->
+    <color name="orange">#fb8c00</color>
+</resources>
